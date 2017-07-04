@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theomen"
+    tools:context="com.example.brenda.compound.Main3Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_weight="0.09"
+            android:src="@drawable/o" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+            android:textColor="#FFD700"/>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+            android:textColor="#FFD700" />
+
+
+        <RadioGroup
+            android:id="@+id/RadGroupOne"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Allows you to type information and instructions into the computer?"
+                android:textAlignment="center"
+                android:textColor="#00FFFF"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radJoystick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Joystick"
+                android:textColor="#FFD700"
+                android:textStyle="bold">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/radModems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modems"
+                android:textColor="#FFD700"
+                android:textStyle="bold">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/radKeyboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keyboard"
+                android:textColor="#FFD700"
+                android:textStyle="bold">
+
+            </RadioButton>
+
+        </RadioGroup>
+
+
+
+
+
+        <RadioGroup
+    android:id="@+id/RadGroupTwo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textAlignment="center"
+       android:textColor="#00FFFF"
+       android:textStyle="bold"
+       android:text="Allow you to point at and select elements of the interface that yor monitor displays?"/>
+
+    <RadioButton
+        android:id="@+id/radKeyboards"
+        android:layout_width="wrap_content"
+        android:text="Keyboard"
+        android:textColor="#FFD700"
+        android:textStyle="bold"
+        android:layout_height="wrap_content">
+
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/radMouse"
+        android:layout_width="wrap_content"
+        android:text="Mouse"
+        android:textStyle="bold"
+        android:textColor="#FFD700"
+        android:layout_height="wrap_content">
+
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/radMonitor"
+        android:text="Monitor"
+        android:textColor="#FFD700"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </RadioButton>
+
+
+</RadioGroup>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="TEMPORARY memory of a PC?"
+            android:textAlignment="center"
+            android:textColor="#00FFFF"  />
+
+        <RadioGroup
+            android:id="@+id/RadGroupThree"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/radRom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#FFD700"
+                android:text="ROM" />
+
+            <RadioButton
+                android:id="@+id/radRam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFD700"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="RAM" />
+
+            <RadioButton
+                android:id="@+id/radRem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#FFD700"
+                android:text="REM" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/RadGroupFour"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#00FFFF"
+                android:textStyle="bold"
+                android:text="PERMANENT memory of a PC?"
+              />
+
+            <RadioButton
+                android:id="@+id/radRams"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="RAM"
+                android:textStyle="bold"
+                android:textColor="#FFD700"   />
+
+            <RadioButton
+                android:id="@+id/radRems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="REM"
+                android:textStyle="bold"
+                android:textColor="#FFD700"   />
+
+            <RadioButton
+                android:id="@+id/raaRoms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ROM"
+                android:textStyle="bold"
+                android:textColor="#FFD700"   />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/RadGroupFive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Connects all the other parts of the computer together?"
+                android:textAlignment="center"
+                android:textColor="#00FFFF"
+                android:textStyle="bold" />
+            <RadioButton
+                android:id="@+id/radDvd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="DVD-Rom"
+                android:textColor="#FFD700"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radMotherboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Motherbard"
+                android:textColor="#FFD700"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radMemory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Memory"
+                android:textColor="#FFD700"
+
+                android:textStyle="bold" />
+
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/RadGroupSix"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Converts electricity received from a mains plug into lower voltage that the computer can use?"
+                android:textAlignment="center"
+                android:textColor="#00FFFF"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radPowerSupply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Power Supply"
+                android:textColor="#FFD700"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radmonitors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Monitor"
+                android:textColor="#FFD700"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radCpu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CPU"
+                android:textColor="#FFD700"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/RadGroupSeven"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stores the current Date and Time?"
+                android:textAlignment="center"
+                android:textColor="#00FFFF"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radBattery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Battery"
+                android:textColor="#FFD700"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radBios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="BIOS"
+                android:textColor="#FFD700"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radRechargeable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Rechargerable"
+                android:textColor="#FFD700"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/RadGroupEight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="Processes information inside a computer?"
+                android:textColor="#00FFFF"   />
+
+            <RadioButton
+                android:id="@+id/radFlash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Flash Disk"
+                android:textStyle="bold"
+                android:textColor="#FFD700"  />
+
+            <RadioButton
+                android:id="@+id/radCd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CD"
+                android:textStyle="bold"
+                android:textColor="#FFD700"  />
+
+            <RadioButton
+                android:id="@+id/radCus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CPU"
+                android:textStyle="bold"
+                android:textColor="#FFD700"  />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/RadGroupNine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="Transmit electricity from one place to another?"
+                android:textColor="#00FFFF"   />
+
+            <RadioButton
+                android:id="@+id/radCable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="Cables and Leads"
+                android:textColor="#FFD700" />
+
+            <RadioButton
+                android:id="@+id/radMemories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Memory"
+                android:textStyle="bold"
+                android:textColor="#FFD700"   />
+
+            <RadioButton
+                android:id="@+id/radPC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PC Card"
+                android:textStyle="bold"
+                android:textColor="#FFD700"   />
+
+            <Button
+                android:id="@+id/Score"
+                android:text="Score"
+                android:background="#00FFFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </RadioGroup>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
